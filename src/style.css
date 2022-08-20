@@ -1,0 +1,62 @@
+.body {
+  background-color: black;
+  z-index: 1;
+  height: 100vh;
+}
+
+/* .--container {
+  background-color: white;
+  top: 50px;
+  position: relative;
+  z-index: 5;
+  padding: 20px 50px 20px 50px;
+} */
+
+.header--div {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+    url(./images/HeadersPhotos/backg.jpg);
+  background-size: cover;
+  z-index: 5;
+  height: 900px;
+}
+
+.picone {
+  position: relative;
+  top: 50px;
+  left: 300px;
+  height: 350px;
+
+  box-shadow: 10px 10px 8px #3b3b3b;
+  transform: rotate(-7deg);
+  z-index: 1;
+}
+
+.pictwo {
+  position: relative;
+  top: 50px;
+  left: 300px;
+  height: 350px;
+
+  box-shadow: 10px 10px 8px #3b3b3b;
+  transform: rotate(7deg);
+  opacity: 0.7;
+}
+
+.picthree {
+  position: relative;
+  top: 120px;
+  left: -460px;
+  height: 350px;
+
+  box-shadow: 10px 10px 8px #343434;
+  transform: rotate(-25deg);
+  opacity: 0.8;
+}
+
+.welcome--sign {
+  position: relative;
+  top: -250px;
+  left: 1000px;
+  color: white;
+  font-size: 64px;
+}
