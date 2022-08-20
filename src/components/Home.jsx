@@ -8,12 +8,12 @@ export default function HomePage() {
   return (
     <div>
       <div className="header--div">
-        <img className="picone" alt="first pic" src={picone} />
+        {/* <img className="picone" alt="first pic" src={picone} />
         <img className="pictwo" alt="second pic" src={pictwo} />
-        <img className="picthree" alt="third pic" src={picthree} />
+        <img className="picthree" alt="third pic" src={picthree} /> */}
         <h1 className="welcome--sign">Kali Photography</h1>
 
-        <p className="intro"></p>
+        {/* <p className="intro"></p> */}
 
         <div>
           <ul className="contact-icon">
@@ -31,6 +31,14 @@ export default function HomePage() {
           </ul>
         </div>
       </div>
+      <div className="second--container">
+        <h2 className="quote">
+          "If I could tell the story in words, I wouldn't need to lug around a
+          camera"
+        </h2>
+        <p className="author">&mdash; Lewis Hine</p>
+      </div>
+      <div className="second--header--div"></div>
     </div>
   );
 }
